@@ -87,7 +87,7 @@ _sections_unfolded = [ "Resource" ]
 custom_solver_bias = 0.0
 extents = Vector2( 9.1, 10 )
 
-[node name="CharacterND" type="Node2D" index="0"]
+[node name="CharacterND" type="Node2D"]
 
 [node name="CharacterKB" type="KinematicBody2D" parent="." index="0"]
 
@@ -105,7 +105,7 @@ position = Vector2( -49.8434, -39.05 )
 scale = Vector2( 0.220303, 0.148758 )
 frames = SubResource( 1 )
 animation = "Running"
-frame = 5
+frame = 6
 playing = true
 centered = false
 
