@@ -20,22 +20,21 @@
 [sub_resource type="RectangleShape2D" id=1]
 
 custom_solver_bias = 0.0
-extents = Vector2( 64.9435, 65.3693 )
+extents = Vector2( 64.1329, 63.6826 )
 
 [sub_resource type="RectangleShape2D" id=2]
 
 custom_solver_bias = 0.0
-extents = Vector2( 64.377, 47.1224 )
+extents = Vector2( 63.0598, 45.4018 )
 
-[node name="Node2D" type="Node2D" index="0"]
+[node name="Node2D" type="Node2D"]
 
-position = Vector2( 55.7755, 121.074 )
+position = Vector2( 0.0382576, -1.11546 )
 
 [node name="Tile (1)" type="Sprite" parent="." index="0"]
 
 editor/display_folded = true
-visible = false
-position = Vector2( 364.937, 109.26 )
+position = Vector2( 470.982, 388.912 )
 texture = ExtResource( 1 )
 __meta__ = {
 "_edit_group_": true
@@ -43,8 +42,9 @@ __meta__ = {
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Tile (1)" index="0"]
 
-position = Vector2( -0.337372, 0.338196 )
-scale = Vector2( 2.04324, 2.05168 )
+editor/display_folded = true
+position = Vector2( 0.247629, -0.772591 )
+scale = Vector2( 2.01166, 1.99642 )
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
@@ -55,15 +55,14 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Tile (1)/StaticBody2D" index="0"]
 
-position = Vector2( 0.165115, -0.164833 )
-scale = Vector2( 0.48942, 0.487406 )
+position = Vector2( -0.123093, 0.386978 )
+scale = Vector2( 0.497103, 0.500897 )
 shape = SubResource( 1 )
 
 [node name="Tile (2)" type="Sprite" parent="." index="1"]
 
 editor/display_folded = true
-visible = false
-position = Vector2( 364.937, 109.26 )
+position = Vector2( 131.001, 563.684 )
 texture = ExtResource( 2 )
 __meta__ = {
 "_edit_group_": true
@@ -72,8 +71,8 @@ __meta__ = {
 [node name="StaticBody2D2" type="StaticBody2D" parent="Tile (2)" index="0"]
 
 editor/display_folded = true
-position = Vector2( -0.337372, 0.338196 )
-scale = Vector2( 2.04324, 2.05168 )
+position = Vector2( 0.24762, -0.772583 )
+scale = Vector2( 2.01166, 1.99642 )
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
@@ -84,15 +83,14 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Tile (2)/StaticBody2D2" index="0"]
 
-position = Vector2( 0.165115, -0.164833 )
-scale = Vector2( 0.48942, 0.487406 )
+position = Vector2( -0.123093, 0.386978 )
+scale = Vector2( 0.497103, 0.500897 )
 shape = SubResource( 1 )
 
 [node name="Tile (3)" type="Sprite" parent="." index="2"]
 
 editor/display_folded = true
-visible = false
-position = Vector2( 364.937, 109.26 )
+position = Vector2( 295.705, 559.983 )
 texture = ExtResource( 3 )
 __meta__ = {
 "_edit_group_": true
@@ -101,8 +99,8 @@ __meta__ = {
 [node name="StaticBody2D3" type="StaticBody2D" parent="Tile (3)" index="0"]
 
 editor/display_folded = true
-position = Vector2( -0.337372, 0.338196 )
-scale = Vector2( 2.04324, 2.05168 )
+position = Vector2( 0.24762, -0.772583 )
+scale = Vector2( 2.01166, 1.99642 )
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
@@ -113,15 +111,14 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Tile (3)/StaticBody2D3" index="0"]
 
-position = Vector2( 0.165115, -0.164833 )
-scale = Vector2( 0.48942, 0.487406 )
+position = Vector2( -0.123093, 0.386978 )
+scale = Vector2( 0.497103, 0.500897 )
 shape = SubResource( 1 )
 
 [node name="Tile (4)" type="Sprite" parent="." index="3"]
 
 editor/display_folded = true
-visible = false
-position = Vector2( 364.937, 109.26 )
+position = Vector2( 470.48, 560.283 )
 texture = ExtResource( 4 )
 __meta__ = {
 "_edit_group_": true
@@ -130,8 +127,8 @@ __meta__ = {
 [node name="StaticBody2D4" type="StaticBody2D" parent="Tile (4)" index="0"]
 
 editor/display_folded = true
-position = Vector2( -0.337372, 0.338196 )
-scale = Vector2( 2.04324, 2.05168 )
+position = Vector2( 0.24762, -0.772583 )
+scale = Vector2( 2.01166, 1.99642 )
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
@@ -142,15 +139,14 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Tile (4)/StaticBody2D4" index="0"]
 
-position = Vector2( 0.165115, -0.164833 )
-scale = Vector2( 0.48942, 0.487406 )
+position = Vector2( -0.123093, 0.386978 )
+scale = Vector2( 0.497103, 0.500897 )
 shape = SubResource( 1 )
 
 [node name="Tile (5)" type="Sprite" parent="." index="4"]
 
 editor/display_folded = true
-visible = false
-position = Vector2( 364.937, 109.26 )
+position = Vector2( 635.587, 563.984 )
 texture = ExtResource( 5 )
 __meta__ = {
 "_edit_group_": true
@@ -159,8 +155,8 @@ __meta__ = {
 [node name="StaticBody2D5" type="StaticBody2D" parent="Tile (5)" index="0"]
 
 editor/display_folded = true
-position = Vector2( -0.337372, 0.338196 )
-scale = Vector2( 2.04324, 2.05168 )
+position = Vector2( 0.24762, -0.772583 )
+scale = Vector2( 2.01166, 1.99642 )
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
@@ -171,15 +167,14 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Tile (5)/StaticBody2D5" index="0"]
 
-position = Vector2( 0.165115, -0.164833 )
-scale = Vector2( 0.48942, 0.487406 )
+position = Vector2( -0.123093, 0.386978 )
+scale = Vector2( 0.497103, 0.500897 )
 shape = SubResource( 1 )
 
 [node name="Tile (6)" type="Sprite" parent="." index="5"]
 
 editor/display_folded = true
-visible = false
-position = Vector2( 364.937, 109.26 )
+position = Vector2( 792.337, 565.835 )
 texture = ExtResource( 6 )
 __meta__ = {
 "_edit_group_": true
@@ -188,8 +183,8 @@ __meta__ = {
 [node name="StaticBody2D6" type="StaticBody2D" parent="Tile (6)" index="0"]
 
 editor/display_folded = true
-position = Vector2( -0.337372, 0.338196 )
-scale = Vector2( 2.04324, 2.05168 )
+position = Vector2( 0.24762, -0.772583 )
+scale = Vector2( 2.01166, 1.99642 )
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
@@ -200,15 +195,14 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Tile (6)/StaticBody2D6" index="0"]
 
-position = Vector2( 0.165115, -0.164833 )
-scale = Vector2( 0.48942, 0.487406 )
+position = Vector2( -0.123093, 0.386978 )
+scale = Vector2( 0.497103, 0.500897 )
 shape = SubResource( 1 )
 
 [node name="Tile (7)" type="Sprite" parent="." index="6"]
 
 editor/display_folded = true
-visible = false
-position = Vector2( 364.937, 109.26 )
+position = Vector2( 129.13, 739.922 )
 texture = ExtResource( 7 )
 __meta__ = {
 "_edit_group_": true
@@ -217,8 +211,8 @@ __meta__ = {
 [node name="StaticBody2D7" type="StaticBody2D" parent="Tile (7)" index="0"]
 
 editor/display_folded = true
-position = Vector2( -0.337372, 0.338196 )
-scale = Vector2( 2.04324, 2.05168 )
+position = Vector2( 0.24762, -0.772583 )
+scale = Vector2( 2.01166, 1.99642 )
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
@@ -229,15 +223,14 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Tile (7)/StaticBody2D7" index="0"]
 
-position = Vector2( 0.165115, -0.164833 )
-scale = Vector2( 0.48942, 0.487406 )
+position = Vector2( -0.123093, 0.386978 )
+scale = Vector2( 0.497103, 0.500897 )
 shape = SubResource( 1 )
 
 [node name="Tile (8)" type="Sprite" parent="." index="7"]
 
 editor/display_folded = true
-visible = false
-position = Vector2( 364.937, 109.26 )
+position = Vector2( 299.387, 738.071 )
 texture = ExtResource( 8 )
 __meta__ = {
 "_edit_group_": true
@@ -246,8 +239,8 @@ __meta__ = {
 [node name="StaticBody2D8" type="StaticBody2D" parent="Tile (8)" index="0"]
 
 editor/display_folded = true
-position = Vector2( -0.337372, 0.338196 )
-scale = Vector2( 2.04324, 2.05168 )
+position = Vector2( 0.24762, -0.772583 )
+scale = Vector2( 2.01166, 1.99642 )
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
@@ -258,15 +251,14 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Tile (8)/StaticBody2D8" index="0"]
 
-position = Vector2( 0.165115, -0.164833 )
-scale = Vector2( 0.48942, 0.487406 )
+position = Vector2( -0.123093, 0.386978 )
+scale = Vector2( 0.497103, 0.500897 )
 shape = SubResource( 1 )
 
 [node name="Tile (9)" type="Sprite" parent="." index="8"]
 
 editor/display_folded = true
-visible = false
-position = Vector2( 364.937, 109.26 )
+position = Vector2( 466.55, 734.745 )
 texture = ExtResource( 9 )
 __meta__ = {
 "_edit_group_": true
@@ -275,8 +267,8 @@ __meta__ = {
 [node name="StaticBody2D9" type="StaticBody2D" parent="Tile (9)" index="0"]
 
 editor/display_folded = true
-position = Vector2( -0.337372, 0.338196 )
-scale = Vector2( 2.04324, 2.05168 )
+position = Vector2( 0.24762, -0.772583 )
+scale = Vector2( 2.01166, 1.99642 )
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
@@ -287,15 +279,14 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Tile (9)/StaticBody2D9" index="0"]
 
-position = Vector2( 0.165115, -0.164833 )
-scale = Vector2( 0.48942, 0.487406 )
+position = Vector2( -0.123093, 0.386978 )
+scale = Vector2( 0.497103, 0.500897 )
 shape = SubResource( 1 )
 
 [node name="Tile (10)" type="Sprite" parent="." index="9"]
 
 editor/display_folded = true
-visible = false
-position = Vector2( 364.937, 109.26 )
+position = Vector2( 634.06, 734.879 )
 texture = ExtResource( 10 )
 __meta__ = {
 "_edit_group_": true
@@ -304,8 +295,8 @@ __meta__ = {
 [node name="StaticBody2D10" type="StaticBody2D" parent="Tile (10)" index="0"]
 
 editor/display_folded = true
-position = Vector2( -0.337372, 0.338196 )
-scale = Vector2( 2.04324, 2.05168 )
+position = Vector2( 0.24762, -0.772583 )
+scale = Vector2( 2.01166, 1.99642 )
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
@@ -316,15 +307,14 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Tile (10)/StaticBody2D10" index="0"]
 
-position = Vector2( 0.165115, -0.164833 )
-scale = Vector2( 0.48942, 0.487406 )
+position = Vector2( -0.123093, 0.386978 )
+scale = Vector2( 0.497103, 0.500897 )
 shape = SubResource( 1 )
 
 [node name="Tile (11)" type="Sprite" parent="." index="10"]
 
 editor/display_folded = true
-visible = false
-position = Vector2( 364.937, 109.26 )
+position = Vector2( 787.795, 730.357 )
 texture = ExtResource( 11 )
 __meta__ = {
 "_edit_group_": true
@@ -333,8 +323,8 @@ __meta__ = {
 [node name="StaticBody2D11" type="StaticBody2D" parent="Tile (11)" index="0"]
 
 editor/display_folded = true
-position = Vector2( -0.337372, 0.338196 )
-scale = Vector2( 2.04324, 2.05168 )
+position = Vector2( 0.24762, -0.772583 )
+scale = Vector2( 2.01166, 1.99642 )
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
@@ -345,15 +335,14 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Tile (11)/StaticBody2D11" index="0"]
 
-position = Vector2( 0.165115, -0.164833 )
-scale = Vector2( 0.48942, 0.487406 )
+position = Vector2( -0.123093, 0.386978 )
+scale = Vector2( 0.497103, 0.500897 )
 shape = SubResource( 1 )
 
 [node name="Tile (12)" type="Sprite" parent="." index="11"]
 
 editor/display_folded = true
-visible = false
-position = Vector2( 364.937, 109.26 )
+position = Vector2( 127.28, 904.627 )
 texture = ExtResource( 12 )
 __meta__ = {
 "_edit_group_": true
@@ -362,8 +351,8 @@ __meta__ = {
 [node name="StaticBody2D12" type="StaticBody2D" parent="Tile (12)" index="0"]
 
 editor/display_folded = true
-position = Vector2( -0.337372, 0.338196 )
-scale = Vector2( 2.04324, 2.05168 )
+position = Vector2( 0.24762, -0.772583 )
+scale = Vector2( 2.01166, 1.99642 )
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
@@ -374,15 +363,14 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Tile (12)/StaticBody2D12" index="0"]
 
-position = Vector2( 0.165115, -0.164833 )
-scale = Vector2( 0.48942, 0.487406 )
+position = Vector2( -0.123093, 0.386978 )
+scale = Vector2( 0.497103, 0.500897 )
 shape = SubResource( 1 )
 
 [node name="Tile (13)" type="Sprite" parent="." index="12"]
 
 editor/display_folded = true
-visible = false
-position = Vector2( 364.937, 109.26 )
+position = Vector2( 299.387, 906.477 )
 texture = ExtResource( 13 )
 __meta__ = {
 "_edit_group_": true
@@ -391,8 +379,8 @@ __meta__ = {
 [node name="StaticBody2D13" type="StaticBody2D" parent="Tile (13)" index="0"]
 
 editor/display_folded = true
-position = Vector2( -0.337372, 0.338196 )
-scale = Vector2( 2.04324, 2.05168 )
+position = Vector2( 0.24762, -0.772583 )
+scale = Vector2( 2.01166, 1.99642 )
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
@@ -403,24 +391,21 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Tile (13)/StaticBody2D13" index="0"]
 
-position = Vector2( 0.165115, -0.164833 )
-scale = Vector2( 0.48942, 0.487406 )
+position = Vector2( -0.123093, 0.386978 )
+scale = Vector2( 0.497103, 0.500897 )
 shape = SubResource( 1 )
 
 [node name="Tile (14)" type="Sprite" parent="." index="13"]
 
 editor/display_folded = true
-visible = false
-position = Vector2( 364.937, 109.26 )
+position = Vector2( 470.654, 903.838 )
 texture = ExtResource( 14 )
 __meta__ = {
-"_edit_lock_": true
+"_edit_group_": true
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Tile (14)" index="0"]
 
-position = Vector2( 2.19852, -17.8619 )
-scale = Vector2( 1.94308, 1.46302 )
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
@@ -431,24 +416,22 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Tile (14)/StaticBody2D" index="0"]
 
-position = Vector2( -1.13144, 0.208862 )
-scale = Vector2( 0.514647, 0.683515 )
+position = Vector2( 0, -18.2828 )
+scale = Vector2( 1, 1 )
 shape = SubResource( 2 )
 
 [node name="Tile (15)" type="Sprite" parent="." index="14"]
 
 editor/display_folded = true
-visible = false
-position = Vector2( 364.937, 109.26 )
+position = Vector2( 630.493, 901.987 )
 texture = ExtResource( 15 )
 __meta__ = {
-"_edit_lock_": true
+"_edit_group_": true
 }
 
 [node name="StaticBody2D2" type="StaticBody2D" parent="Tile (15)" index="0"]
 
-position = Vector2( 2.19852, -17.8619 )
-scale = Vector2( 1.94308, 1.46302 )
+position = Vector2( 0.160553, 0.850586 )
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
@@ -459,24 +442,22 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Tile (15)/StaticBody2D2" index="0"]
 
-position = Vector2( -1.13144, 0.208862 )
-scale = Vector2( 0.514647, 0.683515 )
+position = Vector2( 0, -18.2828 )
+scale = Vector2( 1, 1 )
 shape = SubResource( 2 )
 
 [node name="Tile (16)" type="Sprite" parent="." index="15"]
 
 editor/display_folded = true
-visible = false
-position = Vector2( 364.937, 109.26 )
+position = Vector2( 784.437, 903.151 )
 texture = ExtResource( 16 )
 __meta__ = {
-"_edit_lock_": true
+"_edit_group_": true
 }
 
 [node name="StaticBody2D3" type="StaticBody2D" parent="Tile (16)" index="0"]
 
-position = Vector2( 2.19852, -17.8619 )
-scale = Vector2( 1.94308, 1.46302 )
+position = Vector2( -0.783661, -0.313416 )
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
@@ -487,8 +468,8 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Tile (16)/StaticBody2D3" index="0"]
 
-position = Vector2( -1.13144, 0.208862 )
-scale = Vector2( 0.514647, 0.683515 )
+position = Vector2( 0, -18.2828 )
+scale = Vector2( 1, 1 )
 shape = SubResource( 2 )
 
 

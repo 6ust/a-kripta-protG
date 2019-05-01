@@ -20,12 +20,12 @@
 [sub_resource type="RectangleShape2D" id=1]
 
 custom_solver_bias = 0.0
-extents = Vector2( 64.9435, 65.3693 )
+extents = Vector2( 64.1329, 63.6826 )
 
 [sub_resource type="RectangleShape2D" id=2]
 
 custom_solver_bias = 0.0
-extents = Vector2( 64.377, 47.1224 )
+extents = Vector2( 63.0598, 45.4018 )
 
 [resource]
 
@@ -41,7 +41,7 @@ extents = Vector2( 64.377, 47.1224 )
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "shape": SubResource( 1 ),
-"shape_transform": Transform2D( 0.48942, 0, 0, 0.487406, 64.1651, 63.8352 )
+"shape_transform": Transform2D( 0.497103, 0, 0, 0.500897, 63.8769, 64.387 )
 } ]
 1/name = "Tile (2)"
 1/texture = ExtResource( 2 )
@@ -55,7 +55,7 @@ extents = Vector2( 64.377, 47.1224 )
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "shape": SubResource( 1 ),
-"shape_transform": Transform2D( 0.48942, 0, 0, 0.487406, 64.1651, 63.8352 )
+"shape_transform": Transform2D( 0.497103, 0, 0, 0.500897, 63.8769, 64.387 )
 } ]
 2/name = "Tile (3)"
 2/texture = ExtResource( 9 )
@@ -69,7 +69,7 @@ extents = Vector2( 64.377, 47.1224 )
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "shape": SubResource( 1 ),
-"shape_transform": Transform2D( 0.48942, 0, 0, 0.487406, 64.1651, 63.8352 )
+"shape_transform": Transform2D( 0.497103, 0, 0, 0.500897, 63.8769, 64.387 )
 } ]
 3/name = "Tile (4)"
 3/texture = ExtResource( 10 )
@@ -83,7 +83,7 @@ extents = Vector2( 64.377, 47.1224 )
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "shape": SubResource( 1 ),
-"shape_transform": Transform2D( 0.48942, 0, 0, 0.487406, 64.1651, 63.8352 )
+"shape_transform": Transform2D( 0.497103, 0, 0, 0.500897, 63.8769, 64.387 )
 } ]
 4/name = "Tile (5)"
 4/texture = ExtResource( 11 )
@@ -97,7 +97,7 @@ extents = Vector2( 64.377, 47.1224 )
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "shape": SubResource( 1 ),
-"shape_transform": Transform2D( 0.48942, 0, 0, 0.487406, 64.1651, 63.8352 )
+"shape_transform": Transform2D( 0.497103, 0, 0, 0.500897, 63.8769, 64.387 )
 } ]
 5/name = "Tile (6)"
 5/texture = ExtResource( 12 )
@@ -111,7 +111,7 @@ extents = Vector2( 64.377, 47.1224 )
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "shape": SubResource( 1 ),
-"shape_transform": Transform2D( 0.48942, 0, 0, 0.487406, 64.1651, 63.8352 )
+"shape_transform": Transform2D( 0.497103, 0, 0, 0.500897, 63.8769, 64.387 )
 } ]
 6/name = "Tile (7)"
 6/texture = ExtResource( 13 )
@@ -125,7 +125,7 @@ extents = Vector2( 64.377, 47.1224 )
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "shape": SubResource( 1 ),
-"shape_transform": Transform2D( 0.48942, 0, 0, 0.487406, 64.1651, 63.8352 )
+"shape_transform": Transform2D( 0.497103, 0, 0, 0.500897, 63.8769, 64.387 )
 } ]
 7/name = "Tile (8)"
 7/texture = ExtResource( 14 )
@@ -139,7 +139,7 @@ extents = Vector2( 64.377, 47.1224 )
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "shape": SubResource( 1 ),
-"shape_transform": Transform2D( 0.48942, 0, 0, 0.487406, 64.1651, 63.8352 )
+"shape_transform": Transform2D( 0.497103, 0, 0, 0.500897, 63.8769, 64.387 )
 } ]
 8/name = "Tile (9)"
 8/texture = ExtResource( 15 )
@@ -153,7 +153,7 @@ extents = Vector2( 64.377, 47.1224 )
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "shape": SubResource( 1 ),
-"shape_transform": Transform2D( 0.48942, 0, 0, 0.487406, 64.1651, 63.8352 )
+"shape_transform": Transform2D( 0.497103, 0, 0, 0.500897, 63.8769, 64.387 )
 } ]
 9/name = "Tile (10)"
 9/texture = ExtResource( 16 )
@@ -167,7 +167,7 @@ extents = Vector2( 64.377, 47.1224 )
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "shape": SubResource( 1 ),
-"shape_transform": Transform2D( 0.48942, 0, 0, 0.487406, 64.1651, 63.8352 )
+"shape_transform": Transform2D( 0.497103, 0, 0, 0.500897, 63.8769, 64.387 )
 } ]
 10/name = "Tile (11)"
 10/texture = ExtResource( 3 )
@@ -181,7 +181,7 @@ extents = Vector2( 64.377, 47.1224 )
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "shape": SubResource( 1 ),
-"shape_transform": Transform2D( 0.48942, 0, 0, 0.487406, 64.1651, 63.8352 )
+"shape_transform": Transform2D( 0.497103, 0, 0, 0.500897, 63.8769, 64.387 )
 } ]
 11/name = "Tile (12)"
 11/texture = ExtResource( 4 )
@@ -195,7 +195,7 @@ extents = Vector2( 64.377, 47.1224 )
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "shape": SubResource( 1 ),
-"shape_transform": Transform2D( 0.48942, 0, 0, 0.487406, 64.1651, 63.8352 )
+"shape_transform": Transform2D( 0.497103, 0, 0, 0.500897, 63.8769, 64.387 )
 } ]
 12/name = "Tile (13)"
 12/texture = ExtResource( 5 )
@@ -209,7 +209,7 @@ extents = Vector2( 64.377, 47.1224 )
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "shape": SubResource( 1 ),
-"shape_transform": Transform2D( 0.48942, 0, 0, 0.487406, 64.1651, 63.8352 )
+"shape_transform": Transform2D( 0.497103, 0, 0, 0.500897, 63.8769, 64.387 )
 } ]
 13/name = "Tile (14)"
 13/texture = ExtResource( 6 )
@@ -223,7 +223,7 @@ extents = Vector2( 64.377, 47.1224 )
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "shape": SubResource( 2 ),
-"shape_transform": Transform2D( 0.514647, 0, 0, 0.683515, 62.8686, 64.2089 )
+"shape_transform": Transform2D( 1, 0, 0, 1, 64, 45.7172 )
 } ]
 14/name = "Tile (15)"
 14/texture = ExtResource( 7 )
@@ -237,7 +237,7 @@ extents = Vector2( 64.377, 47.1224 )
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "shape": SubResource( 2 ),
-"shape_transform": Transform2D( 0.514647, 0, 0, 0.683515, 62.8686, 64.2089 )
+"shape_transform": Transform2D( 1, 0, 0, 1, 64, 45.7172 )
 } ]
 15/name = "Tile (16)"
 15/texture = ExtResource( 8 )
@@ -251,6 +251,6 @@ extents = Vector2( 64.377, 47.1224 )
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "shape": SubResource( 2 ),
-"shape_transform": Transform2D( 0.514647, 0, 0, 0.683515, 62.8686, 64.2089 )
+"shape_transform": Transform2D( 1, 0, 0, 1, 64, 45.7172 )
 } ]
 
