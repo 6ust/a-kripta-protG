@@ -86,9 +86,7 @@ animations = [ {
 custom_solver_bias = 0.0
 extents = Vector2( 123.273, 219.941 )
 
-[node name="CharacterNd" type="Node2D"]
-
-[node name="Character" type="KinematicBody2D" parent="." index="0"]
+[node name="Character" type="KinematicBody2D"]
 
 input_pickable = false
 collision_layer = 1
@@ -96,18 +94,23 @@ collision_mask = 1
 collision/safe_margin = 0.08
 script = ExtResource( 1 )
 
-[node name="AnimatedSprite" type="AnimatedSprite" parent="Character" index="0"]
+[node name="AnimatedSprite" type="AnimatedSprite" parent="." index="0"]
 
+position = Vector2( -0.631474, -0.304464 )
+scale = Vector2( 0.252691, 0.271271 )
 frames = SubResource( 1 )
 animation = "running"
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Character" index="1"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]
 
-position = Vector2( 10.5514, 6.02934 )
+position = Vector2( 2.03476, 1.33112 )
+scale = Vector2( 0.252691, 0.271271 )
 shape = SubResource( 2 )
 
-[node name="Camera2D" type="Camera2D" parent="Character" index="2"]
+[node name="Camera2D" type="Camera2D" parent="." index="2"]
 
+position = Vector2( -0.631474, -0.304464 )
+scale = Vector2( 0.252691, 0.271271 )
 anchor_mode = 1
 rotating = false
 current = true
@@ -131,9 +134,9 @@ editor_draw_screen = true
 editor_draw_limits = false
 editor_draw_drag_margin = false
 
-[node name="Position2D" type="Position2D" parent="Character" index="3"]
+[node name="Position2D" type="Position2D" parent="." index="3"]
 
-position = Vector2( 184.007, 22.1972 )
-scale = Vector2( 3.57361, 0.657243 )
+position = Vector2( 45.8653, 5.71699 )
+scale = Vector2( 0.90302, 0.178291 )
 
 
