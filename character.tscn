@@ -1,142 +1,107 @@
 [gd_scene load_steps=54 format=2]
 
 [ext_resource path="res://character.gd" type="Script" id=1]
-[ext_resource path="res://images/character/Idle__000.png" type="Texture" id=2]
-[ext_resource path="res://images/character/Idle__001.png" type="Texture" id=3]
-[ext_resource path="res://images/character/Idle__002.png" type="Texture" id=4]
-[ext_resource path="res://images/character/Idle__003.png" type="Texture" id=5]
-[ext_resource path="res://images/character/Idle__004.png" type="Texture" id=6]
-[ext_resource path="res://images/character/Idle__005.png" type="Texture" id=7]
-[ext_resource path="res://images/character/Idle__006.png" type="Texture" id=8]
-[ext_resource path="res://images/character/Idle__007.png" type="Texture" id=9]
-[ext_resource path="res://images/character/Idle__008.png" type="Texture" id=10]
-[ext_resource path="res://images/character/Idle__009.png" type="Texture" id=11]
-[ext_resource path="res://images/character/Slide__000.png" type="Texture" id=12]
-[ext_resource path="res://images/character/Slide__001.png" type="Texture" id=13]
-[ext_resource path="res://images/character/Slide__002.png" type="Texture" id=14]
-[ext_resource path="res://images/character/Slide__003.png" type="Texture" id=15]
-[ext_resource path="res://images/character/Slide__004.png" type="Texture" id=16]
-[ext_resource path="res://images/character/Slide__005.png" type="Texture" id=17]
-[ext_resource path="res://images/character/Slide__006.png" type="Texture" id=18]
-[ext_resource path="res://images/character/Slide__007.png" type="Texture" id=19]
-[ext_resource path="res://images/character/Slide__008.png" type="Texture" id=20]
-[ext_resource path="res://images/character/Slide__009.png" type="Texture" id=21]
-[ext_resource path="res://images/character/Jump__000.png" type="Texture" id=22]
-[ext_resource path="res://images/character/Jump__001.png" type="Texture" id=23]
-[ext_resource path="res://images/character/Jump__002.png" type="Texture" id=24]
-[ext_resource path="res://images/character/Jump__003.png" type="Texture" id=25]
-[ext_resource path="res://images/character/Jump__004.png" type="Texture" id=26]
-[ext_resource path="res://images/character/Jump__005.png" type="Texture" id=27]
-[ext_resource path="res://images/character/Jump__006.png" type="Texture" id=28]
-[ext_resource path="res://images/character/Jump__007.png" type="Texture" id=29]
-[ext_resource path="res://images/character/Jump__008.png" type="Texture" id=30]
-[ext_resource path="res://images/character/Jump__009.png" type="Texture" id=31]
-[ext_resource path="res://images/character/Run__000.png" type="Texture" id=32]
-[ext_resource path="res://images/character/Run__001.png" type="Texture" id=33]
-[ext_resource path="res://images/character/Run__002.png" type="Texture" id=34]
-[ext_resource path="res://images/character/Run__003.png" type="Texture" id=35]
-[ext_resource path="res://images/character/Run__004.png" type="Texture" id=36]
-[ext_resource path="res://images/character/Run__005.png" type="Texture" id=37]
-[ext_resource path="res://images/character/Run__006.png" type="Texture" id=38]
-[ext_resource path="res://images/character/Run__007.png" type="Texture" id=39]
-[ext_resource path="res://images/character/Run__008.png" type="Texture" id=40]
-[ext_resource path="res://images/character/Run__009.png" type="Texture" id=41]
-[ext_resource path="res://images/character/Dead__000.png" type="Texture" id=42]
-[ext_resource path="res://images/character/Dead__001.png" type="Texture" id=43]
-[ext_resource path="res://images/character/Dead__002.png" type="Texture" id=44]
-[ext_resource path="res://images/character/Dead__003.png" type="Texture" id=45]
-[ext_resource path="res://images/character/Dead__004.png" type="Texture" id=46]
-[ext_resource path="res://images/character/Dead__005.png" type="Texture" id=47]
-[ext_resource path="res://images/character/Dead__006.png" type="Texture" id=48]
-[ext_resource path="res://images/character/Dead__007.png" type="Texture" id=49]
-[ext_resource path="res://images/character/Dead__008.png" type="Texture" id=50]
-[ext_resource path="res://images/character/Dead__009.png" type="Texture" id=51]
+[ext_resource path="res://images/character/Slide__000.png" type="Texture" id=2]
+[ext_resource path="res://images/character/Slide__001.png" type="Texture" id=3]
+[ext_resource path="res://images/character/Slide__002.png" type="Texture" id=4]
+[ext_resource path="res://images/character/Slide__003.png" type="Texture" id=5]
+[ext_resource path="res://images/character/Slide__004.png" type="Texture" id=6]
+[ext_resource path="res://images/character/Slide__005.png" type="Texture" id=7]
+[ext_resource path="res://images/character/Slide__006.png" type="Texture" id=8]
+[ext_resource path="res://images/character/Slide__007.png" type="Texture" id=9]
+[ext_resource path="res://images/character/Slide__008.png" type="Texture" id=10]
+[ext_resource path="res://images/character/Slide__009.png" type="Texture" id=11]
+[ext_resource path="res://images/character/Jump__000.png" type="Texture" id=12]
+[ext_resource path="res://images/character/Jump__001.png" type="Texture" id=13]
+[ext_resource path="res://images/character/Jump__002.png" type="Texture" id=14]
+[ext_resource path="res://images/character/Jump__003.png" type="Texture" id=15]
+[ext_resource path="res://images/character/Jump__004.png" type="Texture" id=16]
+[ext_resource path="res://images/character/Jump__005.png" type="Texture" id=17]
+[ext_resource path="res://images/character/Jump__006.png" type="Texture" id=18]
+[ext_resource path="res://images/character/Jump__007.png" type="Texture" id=19]
+[ext_resource path="res://images/character/Jump__008.png" type="Texture" id=20]
+[ext_resource path="res://images/character/Jump__009.png" type="Texture" id=21]
+[ext_resource path="res://images/character/Dead__000.png" type="Texture" id=22]
+[ext_resource path="res://images/character/Dead__001.png" type="Texture" id=23]
+[ext_resource path="res://images/character/Dead__002.png" type="Texture" id=24]
+[ext_resource path="res://images/character/Dead__003.png" type="Texture" id=25]
+[ext_resource path="res://images/character/Dead__004.png" type="Texture" id=26]
+[ext_resource path="res://images/character/Dead__005.png" type="Texture" id=27]
+[ext_resource path="res://images/character/Dead__006.png" type="Texture" id=28]
+[ext_resource path="res://images/character/Dead__007.png" type="Texture" id=29]
+[ext_resource path="res://images/character/Dead__008.png" type="Texture" id=30]
+[ext_resource path="res://images/character/Dead__009.png" type="Texture" id=31]
+[ext_resource path="res://images/character/Idle__000.png" type="Texture" id=32]
+[ext_resource path="res://images/character/Idle__001.png" type="Texture" id=33]
+[ext_resource path="res://images/character/Idle__002.png" type="Texture" id=34]
+[ext_resource path="res://images/character/Idle__003.png" type="Texture" id=35]
+[ext_resource path="res://images/character/Idle__004.png" type="Texture" id=36]
+[ext_resource path="res://images/character/Idle__005.png" type="Texture" id=37]
+[ext_resource path="res://images/character/Idle__006.png" type="Texture" id=38]
+[ext_resource path="res://images/character/Idle__007.png" type="Texture" id=39]
+[ext_resource path="res://images/character/Idle__008.png" type="Texture" id=40]
+[ext_resource path="res://images/character/Idle__009.png" type="Texture" id=41]
+[ext_resource path="res://images/character/Run__000.png" type="Texture" id=42]
+[ext_resource path="res://images/character/Run__001.png" type="Texture" id=43]
+[ext_resource path="res://images/character/Run__002.png" type="Texture" id=44]
+[ext_resource path="res://images/character/Run__003.png" type="Texture" id=45]
+[ext_resource path="res://images/character/Run__004.png" type="Texture" id=46]
+[ext_resource path="res://images/character/Run__005.png" type="Texture" id=47]
+[ext_resource path="res://images/character/Run__006.png" type="Texture" id=48]
+[ext_resource path="res://images/character/Run__007.png" type="Texture" id=49]
+[ext_resource path="res://images/character/Run__008.png" type="Texture" id=50]
+[ext_resource path="res://images/character/Run__009.png" type="Texture" id=51]
 
 [sub_resource type="SpriteFrames" id=1]
-
 animations = [ {
 "frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ) ],
-"loop": true,
-"name": "idling",
-"speed": 10.0
-}, {
-"frames": [ ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ) ],
 "loop": true,
 "name": "sliding",
 "speed": 10.0
 }, {
-"frames": [ ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ) ],
+"frames": [ ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ) ],
 "loop": true,
 "name": "jumping",
 "speed": 10.0
 }, {
-"frames": [ ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 ), ExtResource( 37 ), ExtResource( 38 ), ExtResource( 39 ), ExtResource( 40 ), ExtResource( 41 ) ],
-"loop": true,
-"name": "running",
-"speed": 10.0
-}, {
-"frames": [ ExtResource( 42 ), ExtResource( 43 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 48 ), ExtResource( 49 ), ExtResource( 50 ), ExtResource( 51 ) ],
+"frames": [ ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ) ],
 "loop": false,
 "name": "deading",
 "speed": 12.0
+}, {
+"frames": [ ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 ), ExtResource( 37 ), ExtResource( 38 ), ExtResource( 39 ), ExtResource( 40 ), ExtResource( 41 ) ],
+"loop": true,
+"name": "idling",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 42 ), ExtResource( 43 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 48 ), ExtResource( 49 ), ExtResource( 50 ), ExtResource( 51 ) ],
+"loop": true,
+"name": "running",
+"speed": 10.0
 } ]
 
 [sub_resource type="RectangleShape2D" id=2]
-
-custom_solver_bias = 0.0
 extents = Vector2( 123.273, 219.941 )
 
-[node name="Character" type="KinematicBody2D" index="0"]
-
-input_pickable = false
-collision_layer = 1
-collision_mask = 1
-collision/safe_margin = 0.08
+[node name="Character" type="KinematicBody2D"]
 script = ExtResource( 1 )
 
-[node name="AnimatedSprite" type="AnimatedSprite" parent="." index="0"]
-
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 position = Vector2( -0.631474, -0.304464 )
 scale = Vector2( 0.252691, 0.271271 )
 frames = SubResource( 1 )
 animation = "running"
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]
-
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2( 2.03476, 1.33112 )
 scale = Vector2( 0.252691, 0.271271 )
 shape = SubResource( 2 )
 
-[node name="Camera2D" type="Camera2D" parent="." index="2"]
-
+[node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2( -0.631474, -0.304464 )
 scale = Vector2( 0.252691, 0.271271 )
-anchor_mode = 1
-rotating = false
 current = true
-zoom = Vector2( 1, 1 )
-limit_left = -10000000
-limit_top = -10000000
-limit_right = 10000000
-limit_bottom = 10000000
-limit_smoothed = false
-drag_margin_h_enabled = true
-drag_margin_v_enabled = true
-smoothing_enabled = false
-smoothing_speed = 5.0
-offset_v = 0.0
-offset_h = 0.0
-drag_margin_left = 0.2
-drag_margin_top = 0.2
-drag_margin_right = 0.2
-drag_margin_bottom = 0.2
-editor_draw_screen = true
-editor_draw_limits = false
-editor_draw_drag_margin = false
 
-[node name="Position2D" type="Position2D" parent="." index="3"]
-
-position = Vector2( 45.8653, 5.71699 )
-scale = Vector2( 0.90302, 0.178291 )
-
-
+[node name="Position2D" type="Position2D" parent="."]
+position = Vector2( 42.3605, 10.7239 )
+scale = Vector2( 0.90302, 0.190402 )
