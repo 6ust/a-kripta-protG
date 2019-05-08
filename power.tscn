@@ -1,18 +1,40 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://power.gd" type="Script" id=1]
-[ext_resource path="res://icon.png" type="Texture" id=2]
+[ext_resource path="res://images/shuriken/shuriken000.png" type="Texture" id=2]
+[ext_resource path="res://images/shuriken/shuriken001.png" type="Texture" id=3]
+[ext_resource path="res://images/shuriken/shuriken002.png" type="Texture" id=4]
+[ext_resource path="res://images/shuriken/shuriken003.png" type="Texture" id=5]
+[ext_resource path="res://images/shuriken/shuriken004.png" type="Texture" id=6]
+[ext_resource path="res://images/shuriken/shuriken005.png" type="Texture" id=7]
+[ext_resource path="res://images/shuriken/shuriken006.png" type="Texture" id=8]
+[ext_resource path="res://images/shuriken/shuriken007.png" type="Texture" id=9]
 
-[sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 18.3662, 5.8152 )
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ) ],
+"loop": true,
+"name": "spin",
+"speed": 20.0
+} ]
+
+[sub_resource type="CircleShape2D" id=2]
+radius = 284.683
 
 [node name="power" type="Area2D"]
+scale = Vector2( 0.0697708, 0.0802343 )
 script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
 
-[node name="Sprite" type="Sprite" parent="."]
-scale = Vector2( 0.600001, 0.2 )
-texture = ExtResource( 2 )
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+frames = SubResource( 1 )
+animation = "spin"
+frame = 3
+playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource( 1 )
+position = Vector2( -20.4056, 36.73 )
+shape = SubResource( 2 )
 [connection signal="body_entered" from="." to="." method="_on_power_body_entered"]

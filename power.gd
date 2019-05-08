@@ -11,7 +11,7 @@ func _ready():
 
 var movement = Vector2()
 var direction = 1
-var velocity = 25
+var velocity = 15
 
 func set_direction(dir):
 	direction = dir
