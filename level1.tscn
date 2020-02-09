@@ -284,6 +284,7 @@ __meta__ = {
 position = Vector2( 1027.76, 306.152 )
 scale = Vector2( 0.284818, 0.257032 )
 
+<<<<<<< HEAD
 [node name="zombieF2" parent="TileMap" instance=ExtResource( 14 )]
 position = Vector2( 1538.62, 306.152 )
 scale = Vector2( 0.284818, 0.257032 )
@@ -300,14 +301,19 @@ scale = Vector2( 0.284818, 0.257032 )
 position = Vector2( -130.767, 2238.45 )
 scale = Vector2( 0.284818, 0.257032 )
 
+=======
+>>>>>>> e10f9512e4843da28cc4c11dd6aa856cd3d9806c
 [node name="zombieM" parent="TileMap" instance=ExtResource( 15 )]
 position = Vector2( 216.671, 1222.73 )
 scale = Vector2( 0.274223, 0.281658 )
 
+<<<<<<< HEAD
 [node name="zombieM3" parent="TileMap" instance=ExtResource( 15 )]
 position = Vector2( -377.555, 2231.63 )
 scale = Vector2( 0.274223, 0.281658 )
 
+=======
+>>>>>>> e10f9512e4843da28cc4c11dd6aa856cd3d9806c
 [node name="portalLevel2" type="Area2D" parent="."]
 editor/display_folded = true
 position = Vector2( 44.6313, 1604.32 )
@@ -323,6 +329,10 @@ position = Vector2( -0.463747, 0.46058 )
 scale = Vector2( 2.08696, 1.93513 )
 frames = SubResource( 2 )
 animation = "portal"
+<<<<<<< HEAD
+=======
+frame = 2
+>>>>>>> e10f9512e4843da28cc4c11dd6aa856cd3d9806c
 playing = true
 
 [node name="trampoline" parent="." instance=ExtResource( 20 )]

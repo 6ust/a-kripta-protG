@@ -17,8 +17,8 @@ func _ready():
 const LEAPSAMOUNT = 2
 const POWER = preload("res://power.tscn")
 var movement = Vector2()
-var gravity = 1000
-var velocity = 300
+var gravity = 750
+var velocity = 600
 var leap = LEAPSAMOUNT
 
 func _physics_process(delta):
