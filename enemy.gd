@@ -28,8 +28,4 @@ func _process(delta):
 		
 func die():
 	get_node("AnimatedSprite").play("dying")
-	if position.x < end and direction == "right":
-		position.x += 0	
-	if position.x > start and direction == "left":
-		position.x -= 0
-	#queue_free()
+	queue_free()
