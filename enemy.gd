@@ -28,4 +28,6 @@ func _process(delta):
 		
 func die():
 	get_node("AnimatedSprite").play("dying")
-	queue_free()
+	#IMPLEMENTAR PARADA DE MOVIMENTO QUANDO MORRER
+	#IMPLEMENTAR TIMER PARA DESAPARENCIMENTO
+	queue_free()		

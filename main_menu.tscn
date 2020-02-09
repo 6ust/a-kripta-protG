@@ -1,9 +1,10 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://main_menu.gd" type="Script" id=1]
 [ext_resource path="res://images/menu-credits/Kripta.jpg" type="Texture" id=2]
 [ext_resource path="res://font/The Frontman.ttf" type="DynamicFontData" id=3]
 [ext_resource path="res://font/Antique Quest St.ttf" type="DynamicFontData" id=4]
+[ext_resource path="res://soundtrack/Suspense Thriller Cinematic Music Score _ Meet the Maker.wav" type="AudioStream" id=5]
 
 [sub_resource type="DynamicFont" id=1]
 size = 48
@@ -28,6 +29,7 @@ scale = Vector2( 1, 0.878003 )
 texture = ExtResource( 2 )
 
 [node name="CenterContainer" type="CenterContainer" parent="."]
+editor/display_folded = true
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_left = 100.0
@@ -69,5 +71,8 @@ custom_colors/font_color = Color( 0.827451, 0.886275, 0.188235, 1 )
 custom_colors/font_color_hover = Color( 0.839216, 0.0352941, 0.0352941, 1 )
 text = "Sair"
 flat = true
+
+[node name="mainMenuSoundtrack" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )
 [connection signal="pressed" from="CenterContainer/VBoxContainer/new_game" to="." method="_on_new_game_pressed"]
 [connection signal="pressed" from="CenterContainer/VBoxContainer/exit" to="." method="_on_exit_pressed"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=2]
+[gd_scene load_steps=25 format=2]
 
 [ext_resource path="res://images/imagensCenario/cave.png" type="Texture" id=1]
 [ext_resource path="res://images/imagensCenario/BG.png" type="Texture" id=2]
@@ -13,20 +13,22 @@
 [ext_resource path="res://images/imagensCenario/Objects/TombStone (2).png" type="Texture" id=11]
 [ext_resource path="res://scenaryblocks.tres" type="TileSet" id=12]
 [ext_resource path="res://character.tscn" type="PackedScene" id=13]
-[ext_resource path="res://zombieF.tscn" type="PackedScene" id=14]
-[ext_resource path="res://zombieM.tscn" type="PackedScene" id=15]
-[ext_resource path="res://images/imagensCenario/Objects/deathtex0.png" type="Texture" id=16]
-[ext_resource path="res://images/imagensCenario/Objects/deathtex1.png" type="Texture" id=17]
-[ext_resource path="res://images/imagensCenario/Objects/deathtex2.png" type="Texture" id=18]
-[ext_resource path="res://images/imagensCenario/Objects/deathtex3.png" type="Texture" id=19]
-[ext_resource path="res://trampoline.tscn" type="PackedScene" id=20]
+[ext_resource path="res://soundtrack/creepy-music-box.wav" type="AudioStream" id=14]
+[ext_resource path="res://zombieF.tscn" type="PackedScene" id=15]
+[ext_resource path="res://zombieM.tscn" type="PackedScene" id=16]
+[ext_resource path="res://images/imagensCenario/Objects/deathtex0.png" type="Texture" id=17]
+[ext_resource path="res://images/imagensCenario/Objects/deathtex1.png" type="Texture" id=18]
+[ext_resource path="res://images/imagensCenario/Objects/deathtex2.png" type="Texture" id=19]
+[ext_resource path="res://images/imagensCenario/Objects/deathtex3.png" type="Texture" id=20]
+[ext_resource path="res://trampoline.tscn" type="PackedScene" id=21]
+[ext_resource path="res://BlockCollisionDie.tscn" type="PackedScene" id=22]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 24.5206, 31.6031 )
 
 [sub_resource type="SpriteFrames" id=2]
 animations = [ {
-"frames": [ ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ) ],
+"frames": [ ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ) ],
 "loop": true,
 "name": "portal",
 "speed": 7.0
@@ -133,6 +135,7 @@ position = Vector2( 88.2754, -39.2335 )
 texture = ExtResource( 2 )
 
 [node name="ParallaxBackground2" type="ParallaxBackground" parent="backgrounds"]
+editor/display_folded = true
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="backgrounds/ParallaxBackground2"]
 motion_mirroring = Vector2( 2000, 0 )
@@ -148,7 +151,7 @@ __meta__ = {
 }
 
 [node name="Acid (1)" type="Sprite" parent="water"]
-position = Vector2( 206.358, 470.391 )
+position = Vector2( 210.041, 470.391 )
 scale = Vector2( 0.652189, 0.772338 )
 texture = ExtResource( 3 )
 
@@ -281,31 +284,34 @@ __meta__ = {
 [node name="Character" parent="TileMap" instance=ExtResource( 13 )]
 position = Vector2( -182.756, 138.083 )
 
-[node name="zombieF" parent="TileMap" instance=ExtResource( 14 )]
-position = Vector2( 78.7874, 306.719 )
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="TileMap/Character"]
+stream = ExtResource( 14 )
+
+[node name="zombieF" parent="TileMap" instance=ExtResource( 15 )]
+position = Vector2( 288.731, 315.006 )
 scale = Vector2( 0.284818, 0.257032 )
 
-[node name="zombieF2" parent="TileMap" instance=ExtResource( 14 )]
+[node name="zombieF2" parent="TileMap" instance=ExtResource( 15 )]
 position = Vector2( 743.149, 1215 )
 scale = Vector2( 0.284818, 0.257032 )
 
-[node name="zombieF3" parent="TileMap" instance=ExtResource( 14 )]
+[node name="zombieF3" parent="TileMap" instance=ExtResource( 15 )]
 position = Vector2( 1380.85, 1215 )
 scale = Vector2( 0.284818, 0.257032 )
 
-[node name="zombieF4" parent="TileMap" instance=ExtResource( 14 )]
+[node name="zombieF4" parent="TileMap" instance=ExtResource( 15 )]
 position = Vector2( -31.0167, 2233.22 )
 scale = Vector2( 0.284818, 0.257032 )
 
-[node name="zombieM" parent="TileMap" instance=ExtResource( 15 )]
+[node name="zombieM" parent="TileMap" instance=ExtResource( 16 )]
 position = Vector2( 216.671, 1222.73 )
 scale = Vector2( 0.274223, 0.281658 )
 
-[node name="zombieM2" parent="TileMap" instance=ExtResource( 15 )]
-position = Vector2( 271.781, 1598 )
+[node name="zombieM2" parent="TileMap" instance=ExtResource( 16 )]
+position = Vector2( 103.826, 1596.83 )
 scale = Vector2( 0.274223, 0.281658 )
 
-[node name="zombieM3" parent="TileMap" instance=ExtResource( 15 )]
+[node name="zombieM3" parent="TileMap" instance=ExtResource( 16 )]
 position = Vector2( -473.517, 2233.08 )
 scale = Vector2( 0.274223, 0.281658 )
 
@@ -324,11 +330,24 @@ position = Vector2( -0.463747, 0.46058 )
 scale = Vector2( 2.08696, 1.93513 )
 frames = SubResource( 2 )
 animation = "portal"
-frame = 3
+frame = 2
 playing = true
 
-[node name="trampoline" parent="." instance=ExtResource( 20 )]
+[node name="trampoline" parent="." instance=ExtResource( 21 )]
 position = Vector2( 1078.65, 1894.86 )
 scale = Vector2( 0.412811, 0.457436 )
+
+[node name="DieFields" type="Node2D" parent="."]
+editor/display_folded = true
+__meta__ = {
+"_edit_group_": true,
+"_edit_lock_": true
+}
+
+[node name="BlockCollisionDie" parent="DieFields" instance=ExtResource( 22 )]
+position = Vector2( 200.613, 458.377 )
+
+[node name="BlockCollisionDie2" parent="DieFields" instance=ExtResource( 22 )]
+position = Vector2( 818.78, 456.044 )
 [connection signal="body_entered" from="portalLevel2" to="TileMap/Character" method="_on_portalLevel2_body_entered"]
 [connection signal="body_entered" from="trampoline" to="TileMap/Character" method="_on_trampoline_body_entered"]

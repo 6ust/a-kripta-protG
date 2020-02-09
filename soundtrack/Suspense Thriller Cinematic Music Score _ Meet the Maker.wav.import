@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Suspense Thriller Cinematic Music Score _ Meet the Maker.wav-2b99e59dc8b6d01bb7e988a12836c1c0.sample"
+
+[deps]
+
+source_file="res://soundtrack/Suspense Thriller Cinematic Music Score _ Meet the Maker.wav"
+dest_files=[ "res://.import/Suspense Thriller Cinematic Music Score _ Meet the Maker.wav-2b99e59dc8b6d01bb7e988a12836c1c0.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0
