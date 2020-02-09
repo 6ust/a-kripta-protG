@@ -22,6 +22,8 @@ func _physics_process(delta):
 
 func _on_power_body_entered(body):
 	if "zombieF" in body.name:
+		queue_free()
 		body.die()
 	elif "zombieM" in body.name:
+		queue_free()
 		body.die()

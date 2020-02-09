@@ -138,7 +138,7 @@ texture = ExtResource( 2 )
 motion_mirroring = Vector2( 2000, 0 )
 
 [node name="Sprite" type="Sprite" parent="backgrounds/ParallaxBackground2/ParallaxLayer"]
-position = Vector2( 88.2754, -39.2335 )
+position = Vector2( 90.306, -43.2948 )
 texture = ExtResource( 2 )
 
 [node name="water" type="Node2D" parent="."]
@@ -279,41 +279,36 @@ __meta__ = {
 }
 
 [node name="Character" parent="TileMap" instance=ExtResource( 13 )]
+position = Vector2( -182.756, 138.083 )
 
 [node name="zombieF" parent="TileMap" instance=ExtResource( 14 )]
-position = Vector2( 1027.76, 306.152 )
+position = Vector2( 78.7874, 306.719 )
 scale = Vector2( 0.284818, 0.257032 )
 
-<<<<<<< HEAD
 [node name="zombieF2" parent="TileMap" instance=ExtResource( 14 )]
-position = Vector2( 1538.62, 306.152 )
+position = Vector2( 743.149, 1215 )
 scale = Vector2( 0.284818, 0.257032 )
 
 [node name="zombieF3" parent="TileMap" instance=ExtResource( 14 )]
-position = Vector2( 1438.16, 1214.59 )
+position = Vector2( 1380.85, 1215 )
 scale = Vector2( 0.284818, 0.257032 )
 
 [node name="zombieF4" parent="TileMap" instance=ExtResource( 14 )]
-position = Vector2( 790.497, 1214.59 )
+position = Vector2( -31.0167, 2233.22 )
 scale = Vector2( 0.284818, 0.257032 )
 
-[node name="zombieF6" parent="TileMap" instance=ExtResource( 14 )]
-position = Vector2( -130.767, 2238.45 )
-scale = Vector2( 0.284818, 0.257032 )
-
-=======
->>>>>>> e10f9512e4843da28cc4c11dd6aa856cd3d9806c
 [node name="zombieM" parent="TileMap" instance=ExtResource( 15 )]
 position = Vector2( 216.671, 1222.73 )
 scale = Vector2( 0.274223, 0.281658 )
 
-<<<<<<< HEAD
-[node name="zombieM3" parent="TileMap" instance=ExtResource( 15 )]
-position = Vector2( -377.555, 2231.63 )
+[node name="zombieM2" parent="TileMap" instance=ExtResource( 15 )]
+position = Vector2( 271.781, 1598 )
 scale = Vector2( 0.274223, 0.281658 )
 
-=======
->>>>>>> e10f9512e4843da28cc4c11dd6aa856cd3d9806c
+[node name="zombieM3" parent="TileMap" instance=ExtResource( 15 )]
+position = Vector2( -473.517, 2233.08 )
+scale = Vector2( 0.274223, 0.281658 )
+
 [node name="portalLevel2" type="Area2D" parent="."]
 editor/display_folded = true
 position = Vector2( 44.6313, 1604.32 )
@@ -329,10 +324,7 @@ position = Vector2( -0.463747, 0.46058 )
 scale = Vector2( 2.08696, 1.93513 )
 frames = SubResource( 2 )
 animation = "portal"
-<<<<<<< HEAD
-=======
-frame = 2
->>>>>>> e10f9512e4843da28cc4c11dd6aa856cd3d9806c
+frame = 3
 playing = true
 
 [node name="trampoline" parent="." instance=ExtResource( 20 )]

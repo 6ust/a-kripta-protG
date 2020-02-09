@@ -22,7 +22,7 @@ animations = [ {
 radius = 284.683
 
 [node name="power" type="Area2D"]
-scale = Vector2( 0.0697708, 0.0802343 )
+scale = Vector2( -0.0502285, -0.0397658 )
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_group_": true
@@ -31,7 +31,7 @@ __meta__ = {
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 frames = SubResource( 1 )
 animation = "spin"
-frame = 3
+frame = 4
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
