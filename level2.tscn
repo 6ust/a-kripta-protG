@@ -37,7 +37,6 @@ position = Vector2( 9.55347, -9.5535 )
 script = ExtResource( 1 )
 
 [node name="background" type="Node2D" parent="."]
-editor/display_folded = true
 __meta__ = {
 "_edit_lock_": true
 }
@@ -73,10 +72,8 @@ scale = Vector2( 2.27135, 1.11515 )
 texture = ExtResource( 2 )
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="background"]
-editor/display_folded = true
 
 [node name="ParallaxLayer2" type="ParallaxLayer" parent="background/ParallaxBackground"]
-editor/display_folded = true
 position = Vector2( -26.6863, 213.49 )
 motion_mirroring = Vector2( 2000, 0 )
 
@@ -85,7 +82,6 @@ position = Vector2( 443.368, 158.269 )
 texture = ExtResource( 3 )
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="background/ParallaxBackground"]
-editor/display_folded = true
 motion_mirroring = Vector2( 2000, 0 )
 
 [node name="Sprite" type="Sprite" parent="background/ParallaxBackground/ParallaxLayer"]
@@ -93,7 +89,6 @@ position = Vector2( 443.368, 158.269 )
 texture = ExtResource( 3 )
 
 [node name="objects" type="Node2D" parent="."]
-editor/display_folded = true
 position = Vector2( 394.777, 198.542 )
 scale = Vector2( 0.726296, 2.04263 )
 
@@ -176,7 +171,6 @@ scale = Vector2( 1.18376, 0.465786 )
 texture = ExtResource( 8 )
 
 [node name="water" type="Node2D" parent="."]
-editor/display_folded = true
 __meta__ = {
 "_edit_lock_": true
 }
@@ -206,7 +200,6 @@ scale = Vector2( 3.69001, 8.09167 )
 stream = ExtResource( 13 )
 
 [node name="portalLevel3" type="Area2D" parent="."]
-editor/display_folded = true
 position = Vector2( 6838.62, 446.05 )
 scale = Vector2( 0.726296, 2.04263 )
 __meta__ = {
@@ -218,7 +211,6 @@ position = Vector2( -0.360352, 0.925232 )
 scale = Vector2( 1.95003, 1.90853 )
 frames = SubResource( 1 )
 animation = "portal"
-frame = 2
 playing = true
 flip_h = true
 
@@ -228,14 +220,12 @@ scale = Vector2( 1.95003, 1.90853 )
 shape = SubResource( 2 )
 
 [node name="DieFields" type="Node2D" parent="."]
-editor/display_folded = true
 
 [node name="BlockCollisionDie" parent="DieFields" instance=ExtResource( 18 )]
 position = Vector2( 3331.13, 1012.5 )
 scale = Vector2( 1.48, 1 )
 
 [node name="Enemies" type="Node2D" parent="."]
-editor/display_folded = true
 scale = Vector2( 1.00115, 1 )
 
 [node name="zombieF" parent="Enemies" instance=ExtResource( 19 )]
