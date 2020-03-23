@@ -211,6 +211,7 @@ position = Vector2( -0.360352, 0.925232 )
 scale = Vector2( 1.95003, 1.90853 )
 frames = SubResource( 1 )
 animation = "portal"
+frame = 2
 playing = true
 flip_h = true
 

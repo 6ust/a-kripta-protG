@@ -125,23 +125,14 @@ __meta__ = {
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="backgrounds"]
 
-[node name="ParallaxLayer" type="ParallaxLayer" parent="backgrounds/ParallaxBackground"]
-motion_mirroring = Vector2( 2000, 0 )
-__meta__ = {
-"_edit_group_": true
-}
-
-[node name="Sprite" type="Sprite" parent="backgrounds/ParallaxBackground/ParallaxLayer"]
-position = Vector2( 88.2754, -39.2335 )
-texture = ExtResource( 2 )
-
 [node name="ParallaxBackground2" type="ParallaxBackground" parent="backgrounds"]
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="backgrounds/ParallaxBackground2"]
-motion_mirroring = Vector2( 2000, 0 )
+motion_mirroring = Vector2( 1350, 0 )
 
 [node name="Sprite" type="Sprite" parent="backgrounds/ParallaxBackground2/ParallaxLayer"]
-position = Vector2( 90.306, -43.2948 )
+position = Vector2( 282.506, 119.336 )
+scale = Vector2( 0.696916, 0.599018 )
 texture = ExtResource( 2 )
 
 [node name="water" type="Node2D" parent="."]

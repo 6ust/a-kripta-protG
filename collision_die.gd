@@ -17,3 +17,6 @@ func _on_DieAreaZombie_body_entered(body):
 	if "Character" in body.name:
 		get_tree().change_scene("res://game_over.tscn")
 	
+func _on_die_collision_boss1_body_entered(body):
+	if "Character" in body.name:
+		get_tree().change_scene("res://game_over.tscn")
