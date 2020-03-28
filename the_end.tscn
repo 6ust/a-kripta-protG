@@ -1,0 +1,258 @@
+[gd_scene load_steps=19 format=2]
+
+[ext_resource path="res://font/Antique Quest St.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://images/the-end/cemetery-sematary.jpg" type="Texture" id=2]
+[ext_resource path="res://images/the-end/Cripta 01.jpg" type="Texture" id=3]
+[ext_resource path="res://images/the-end/sematary.jpg" type="Texture" id=4]
+[ext_resource path="res://soundtrack/lp-no-more-sorrow.wav" type="AudioStream" id=5]
+[ext_resource path="res://the_end.gd" type="Script" id=6]
+
+[sub_resource type="ShaderMaterial" id=1]
+render_priority = 1
+
+[sub_resource type="DynamicFont" id=2]
+size = 20
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 15
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 25
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=5]
+size = 20
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=6]
+size = 25
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=7]
+size = 20
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=8]
+size = 25
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=9]
+size = 20
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=10]
+size = 25
+outline_color = Color( 0.941176, 0.027451, 0.027451, 1 )
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=11]
+size = 20
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=12]
+size = 25
+font_data = ExtResource( 1 )
+
+[node name="the_end" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="bg1" type="Sprite" parent="."]
+material = SubResource( 1 )
+position = Vector2( 1.59183, 0.24489 )
+scale = Vector2( 2.28734, 2.04202 )
+texture = ExtResource( 3 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 0, 0, 446, 290 )
+
+[node name="estudio_responsavel" type="CenterContainer" parent="bg1"]
+margin_left = 138.807
+margin_top = 103.64
+margin_right = 389.807
+margin_bottom = 155.64
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="bg1/estudio_responsavel"]
+margin_right = 251.0
+margin_bottom = 52.0
+
+[node name="title_credit" type="Label" parent="bg1/estudio_responsavel/VBoxContainer"]
+margin_right = 251.0
+margin_bottom = 27.0
+custom_fonts/font = SubResource( 2 )
+custom_colors/font_color = Color( 0.972549, 0.0431373, 0.0431373, 1 )
+text = "Estúdio Reponsavel:"
+
+[node name="name_credit" type="Label" parent="bg1/estudio_responsavel/VBoxContainer"]
+margin_top = 31.0
+margin_right = 251.0
+margin_bottom = 52.0
+custom_fonts/font = SubResource( 3 )
+custom_colors/font_color = Color( 0.972549, 0.0431373, 0.0431373, 1 )
+text = "MSR Games CO."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="bg2" type="Sprite" parent="."]
+position = Vector2( 0.59183, -0.75511 )
+scale = Vector2( 1.4144, 1.0954 )
+texture = ExtResource( 2 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 0, 0, 724, 543 )
+
+[node name="diretor_ux_ui" type="CenterContainer" parent="bg2"]
+margin_left = 50.0
+margin_top = 100.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="bg2/diretor_ux_ui"]
+margin_right = 259.0
+margin_bottom = 66.0
+
+[node name="title_credit" type="Label" parent="bg2/diretor_ux_ui/VBoxContainer"]
+margin_right = 259.0
+margin_bottom = 35.0
+custom_fonts/font = SubResource( 4 )
+custom_colors/font_color = Color( 0.956863, 0.0431373, 0.0431373, 1 )
+text = "Diretor de UX /UI:"
+
+[node name="name_credit" type="Label" parent="bg2/diretor_ux_ui/VBoxContainer"]
+margin_top = 39.0
+margin_right = 259.0
+margin_bottom = 66.0
+custom_fonts/font = SubResource( 5 )
+custom_colors/font_color = Color( 0.956863, 0.0431373, 0.0431373, 1 )
+text = "Gustavo Guedes"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="diretor_graficos" type="CenterContainer" parent="bg2"]
+margin_left = 380.0
+margin_top = 200.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="bg2/diretor_graficos"]
+margin_right = 312.0
+margin_bottom = 66.0
+
+[node name="title_credit" type="Label" parent="bg2/diretor_graficos/VBoxContainer"]
+margin_right = 312.0
+margin_bottom = 35.0
+custom_fonts/font = SubResource( 6 )
+custom_colors/font_color = Color( 0.956863, 0.0431373, 0.0431373, 1 )
+text = "Diretor de Gráficos:"
+
+[node name="name_credit" type="Label" parent="bg2/diretor_graficos/VBoxContainer"]
+margin_top = 39.0
+margin_right = 312.0
+margin_bottom = 66.0
+custom_fonts/font = SubResource( 7 )
+custom_colors/font_color = Color( 0.956863, 0.0431373, 0.0431373, 1 )
+text = "Anonimo"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="bg3" type="Sprite" parent="."]
+position = Vector2( 2.15982, 3.24489 )
+scale = Vector2( 1.2806, 1.32617 )
+texture = ExtResource( 4 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 0, 0, 800, 450 )
+
+[node name="desenvolvedor" type="CenterContainer" parent="bg3"]
+margin_left = 50.0
+margin_top = 350.0
+margin_right = 289.0
+margin_bottom = 416.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="bg3/desenvolvedor"]
+margin_right = 239.0
+margin_bottom = 66.0
+
+[node name="title_credit" type="Label" parent="bg3/desenvolvedor/VBoxContainer"]
+margin_right = 239.0
+margin_bottom = 35.0
+custom_fonts/font = SubResource( 8 )
+custom_colors/font_color = Color( 0.941176, 0.027451, 0.027451, 1 )
+text = "Desenvolvedor:"
+
+[node name="name_credit" type="Label" parent="bg3/desenvolvedor/VBoxContainer"]
+margin_top = 39.0
+margin_right = 239.0
+margin_bottom = 66.0
+custom_fonts/font = SubResource( 9 )
+custom_colors/font_color = Color( 0.94902, 0.054902, 0.054902, 1 )
+text = "Gustavo Guedes"
+
+[node name="diretor_de_musica" type="CenterContainer" parent="bg3"]
+margin_left = 500.0
+margin_top = 320.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="bg3/diretor_de_musica"]
+margin_right = 285.0
+margin_bottom = 66.0
+
+[node name="title_credit" type="Label" parent="bg3/diretor_de_musica/VBoxContainer"]
+margin_right = 285.0
+margin_bottom = 35.0
+custom_fonts/font = SubResource( 10 )
+custom_colors/font_color = Color( 0.941176, 0.027451, 0.027451, 1 )
+text = "Diretor de Música:"
+
+[node name="name_credit" type="Label" parent="bg3/diretor_de_musica/VBoxContainer"]
+margin_top = 39.0
+margin_right = 285.0
+margin_bottom = 66.0
+custom_fonts/font = SubResource( 11 )
+custom_colors/font_color = Color( 0.941176, 0.027451, 0.027451, 1 )
+text = "Anonimo"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="option_main_menu" type="CenterContainer" parent="."]
+margin_left = 50.0
+margin_top = 30.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="option_main_menu"]
+margin_right = 256.0
+margin_bottom = 41.0
+
+[node name="main_menu" type="Button" parent="option_main_menu/VBoxContainer"]
+margin_right = 256.0
+margin_bottom = 41.0
+custom_fonts/font = SubResource( 12 )
+custom_colors/font_color = Color( 0.0588235, 0.0117647, 0.94902, 1 )
+text = "Menu Principal"
+flat = true
+
+[node name="the_end" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )
+[connection signal="pressed" from="option_main_menu/VBoxContainer/main_menu" to="." method="_on_main_menu_pressed"]

@@ -68,4 +68,4 @@ func _on_portalLevel3_body_entered(body):
 	get_tree().change_scene("res://level3.tscn")
 
 func _on_portalEnd_body_entered(body):
-	get_tree().change_scene("res://game_over.tscn")
+	get_tree().change_scene("res://the_end.tscn")
