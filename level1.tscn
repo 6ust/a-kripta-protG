@@ -319,7 +319,7 @@ position = Vector2( -0.463747, 0.46058 )
 scale = Vector2( 2.08696, 1.93513 )
 frames = SubResource( 2 )
 animation = "portal"
-frame = 1
+frame = 2
 playing = true
 
 [node name="trampoline" parent="." instance=ExtResource( 21 )]
@@ -337,5 +337,6 @@ position = Vector2( 200.613, 458.377 )
 
 [node name="BlockCollisionDie2" parent="DieFields" instance=ExtResource( 22 )]
 position = Vector2( 818.78, 456.044 )
+
 [connection signal="body_entered" from="portalLevel2" to="TileMap/Character" method="_on_portalLevel2_body_entered"]
 [connection signal="body_entered" from="trampoline" to="TileMap/Character" method="_on_trampoline_body_entered"]
