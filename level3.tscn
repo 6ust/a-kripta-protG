@@ -281,7 +281,7 @@ position = Vector2( -0.136719, -0.690033 )
 scale = Vector2( 2.36874, 2.57477 )
 frames = SubResource( 1 )
 animation = "portal"
-frame = 2
+frame = 3
 playing = true
 flip_h = true
 
@@ -335,100 +335,101 @@ scale = Vector2( 1.72, 1 )
 [node name="Enemies" type="Node2D" parent="."]
 
 [node name="zombieF" parent="Enemies" instance=ExtResource( 21 )]
-position = Vector2( -447.005, 425.329 )
+position = Vector2( -409.913, 437.304 )
 scale = Vector2( 0.324819, 0.297031 )
 
 [node name="zombieF2" parent="Enemies" instance=ExtResource( 21 )]
-position = Vector2( 2631.97, 960.037 )
+position = Vector2( 2637.86, 952.889 )
 scale = Vector2( 0.324819, 0.297031 )
 
 [node name="zombieF3" parent="Enemies" instance=ExtResource( 21 )]
-position = Vector2( 4247.85, 942.409 )
+position = Vector2( 4209.8, 953.112 )
 scale = Vector2( 0.324819, 0.297031 )
 
 [node name="zombieF4" parent="Enemies" instance=ExtResource( 21 )]
-position = Vector2( 4853.06, 948.285 )
+position = Vector2( 4857.91, 953.112 )
 scale = Vector2( 0.324819, 0.297031 )
 
 [node name="zombieF5" parent="Enemies" instance=ExtResource( 21 )]
-position = Vector2( 6598.21, 960.037 )
+position = Vector2( 6596.36, 952.886 )
 scale = Vector2( 0.324819, 0.297031 )
 
 [node name="zombieF6" parent="Enemies" instance=ExtResource( 21 )]
-position = Vector2( 8067.19, 689.745 )
+position = Vector2( 8057.43, 696.99 )
 scale = Vector2( 0.324819, 0.297031 )
 
 [node name="zombieF7" parent="Enemies" instance=ExtResource( 21 )]
-position = Vector2( 8225.83, 689.745 )
+position = Vector2( 8220.16, 696.36 )
 scale = Vector2( 0.324819, 0.297031 )
 
 [node name="zombieF8" parent="Enemies" instance=ExtResource( 21 )]
-position = Vector2( 9265.87, 307.811 )
+position = Vector2( 9269.41, 311.7 )
 scale = Vector2( 0.324819, 0.297031 )
 
 [node name="zombieF9" parent="Enemies" instance=ExtResource( 21 )]
-position = Vector2( 9547.91, 313.687 )
+position = Vector2( 9546.14, 310.151 )
 scale = Vector2( 0.324819, 0.297031 )
 
 [node name="zombieF10" parent="Enemies" instance=ExtResource( 21 )]
-position = Vector2( 10482.2, 55.1472 )
+position = Vector2( 10483.1, 55.7418 )
 scale = Vector2( 0.324819, 0.297031 )
 
 [node name="zombieF11" parent="Enemies" instance=ExtResource( 21 )]
-position = Vector2( 10899.4, 61.0231 )
+position = Vector2( 10900.5, 56.8139 )
 scale = Vector2( 0.324819, 0.297031 )
 
 [node name="zombieM" parent="Enemies" instance=ExtResource( 22 )]
-position = Vector2( 569.638, 424.61 )
+position = Vector2( 561.732, 437.346 )
 scale = Vector2( 0.350316, 0.361656 )
 
 [node name="zombieM2" parent="Enemies" instance=ExtResource( 22 )]
-position = Vector2( 2784.85, 947.566 )
+position = Vector2( 2797.65, 953.225 )
 scale = Vector2( 0.350316, 0.361656 )
 
 [node name="zombieM3" parent="Enemies" instance=ExtResource( 22 )]
-position = Vector2( 728.287, 418.734 )
+position = Vector2( 723.409, 437.56 )
 scale = Vector2( 0.350316, 0.361656 )
 
 [node name="zombieM4" parent="Enemies" instance=ExtResource( 22 )]
-position = Vector2( 892.813, 418.734 )
+position = Vector2( 910.215, 438.204 )
 scale = Vector2( 0.350316, 0.361656 )
 
 [node name="zombieM5" parent="Enemies" instance=ExtResource( 22 )]
-position = Vector2( 4424.23, 929.938 )
+position = Vector2( 4437.18, 951.047 )
 scale = Vector2( 0.350316, 0.361656 )
 
 [node name="zombieM6" parent="Enemies" instance=ExtResource( 22 )]
-position = Vector2( 4718.03, 941.69 )
+position = Vector2( 4693.21, 950.944 )
 scale = Vector2( 0.350316, 0.361656 )
 
 [node name="zombieM7" parent="Enemies" instance=ExtResource( 22 )]
-position = Vector2( 5023.58, 947.566 )
+position = Vector2( 5037.54, 953.42 )
 scale = Vector2( 0.350316, 0.361656 )
 
 [node name="zombieM8" parent="Enemies" instance=ExtResource( 22 )]
-position = Vector2( 5340.88, 929.939 )
+position = Vector2( 5327.7, 950.893 )
 scale = Vector2( 0.350316, 0.361656 )
 
 [node name="zombieM9" parent="Enemies" instance=ExtResource( 22 )]
-position = Vector2( 6733.47, 947.566 )
+position = Vector2( 6729.69, 953.229 )
 scale = Vector2( 0.350316, 0.361656 )
 
 [node name="zombieM10" parent="Enemies" instance=ExtResource( 22 )]
-position = Vector2( 8366.97, 665.523 )
+position = Vector2( 8376.47, 695.814 )
 scale = Vector2( 0.350316, 0.361656 )
 
 [node name="zombieM11" parent="Enemies" instance=ExtResource( 22 )]
-position = Vector2( 6862.74, 947.566 )
+position = Vector2( 6895.78, 950.398 )
 scale = Vector2( 0.350316, 0.361656 )
 
 [node name="zombieM12" parent="Enemies" instance=ExtResource( 22 )]
-position = Vector2( 9412.88, 301.216 )
+position = Vector2( 9413.27, 311.086 )
 scale = Vector2( 0.350316, 0.361656 )
 
 [node name="zombieM13" parent="Enemies" instance=ExtResource( 22 )]
-position = Vector2( 10670.3, 42.6764 )
+position = Vector2( 10671.4, 52.9492 )
 scale = Vector2( 0.350316, 0.361656 )
+
 [connection signal="body_entered" from="objects/trampoline" to="TileMap/Character" method="_on_trampoline_body_entered"]
 [connection signal="body_entered" from="objects/trampoline2" to="TileMap/Character" method="_on_trampoline_body_entered"]
 [connection signal="body_entered" from="portalEnd" to="TileMap/Character" method="_on_portalEnd_body_entered"]
