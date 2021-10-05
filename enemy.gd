@@ -2,7 +2,7 @@ extends StaticBody2D
 
 # DECLARAÇÃO DE VARIAVEIS DO INIMIGO ZOMBIE
 var direction = "right"
-var velocity = 600
+var velocity = 400
 var start
 var end
 var lifeEnemyZombie = randi()%14+8
@@ -17,31 +17,31 @@ func _physics_process(delta):
 	
 	# GRAVIDADE APLICADA AO INIMIGO
 	if position.x < end and direction == "right":
-		get_node("AnimatedSprite").play("walking")
-		get_node("AnimatedSprite").set_flip_h(false)
 		if lifeEnemyZombie > 0:
 			position.x += 2
+			$ZombieAS.play("walking")
+			$ZombieAS.set_flip_h(false)
 	else: 
 		direction = "left"
 	
 	if position.x > start and direction == "left":
-		get_node("AnimatedSprite").play("walking")
-		get_node("AnimatedSprite").set_flip_h(true)
 		if lifeEnemyZombie > 0:
 			position.x -= 2
+			$ZombieAS.play("walking")
+			$ZombieAS.set_flip_h(true)
 	else:
 		direction = "right"
-		
 		
 # VIDA DO INIMIGO 1 - ZOMBIE MORTE ALEATORIA DE 8 A 14 HITS
 func lifeEnemy(lifeE1):
 	if lifeEnemyZombie >= 0:
 		lifeEnemyZombie = lifeEnemyZombie - lifeE1
 		return lifeEnemyZombie
+		
 
 # ANIMAÇÃO DE MORTE DO INIMIGO ZOMBIE
 func die():
-	get_node("AnimatedSprite").play("dying")
+	$ZombieAS.play("dying")
 	
 	#TIMER PARA DESAPARENCIMENTO
 	timer.set_wait_time(2)
